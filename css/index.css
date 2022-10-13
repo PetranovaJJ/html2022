@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    max-width: 500px;
+    margin: 20px auto;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.card {
+    display: inline-block;
+    width: 23%;
+    margin: 0 1% 15px;
+    border: 1px solid black;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.catalog {
+    font-size: 0;
+}
+.card img {
+    margin: auto;
+}
+.card > div, .card > a {
+    padding: 0 10px
+}
+.card__description {
+    color: indigo;
+    height: 83px;
+}
